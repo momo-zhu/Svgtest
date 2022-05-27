@@ -1,0 +1,57 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="38dp"
+            android:height="18dp"
+            android:viewportWidth="38"
+            android:viewportHeight="18">
+            <group android:name="_R_G">
+                <group android:name="_R_G_L_0_G">
+                    <path
+                        android:name="_R_G_L_0_G_D_0_P_0"
+                        android:fillAlpha="1"
+                        android:fillColor="#456fff"
+                        android:fillType="nonZero"
+                        android:pathData=" M9 0 C9,0 29,0 29,0 C33.97,0 38,4.03 38,9 C38,13.97 33.97,18 29,18 C29,18 9,18 9,18 C4.03,18 0,13.97 0,9 C0,4.03 4.03,0 9,0c " />
+                </group>
+            </group>
+            <group android:name="time_group" />
+        </vector>
+    </aapt:attr>
+    <target android:name="_R_G_L_0_G_D_0_P_0">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="fillColor"
+                    android:startOffset="250"
+                    android:valueFrom="#456fff"
+                    android:valueTo="#000000"
+                    android:valueType="colorType">
+                    <aapt:attr name="android:interpolator">
+                        <pathInterpolator android:pathData="M 0.0,0.0 c0.3,0 0.7,1 1.0,1.0" />
+                    </aapt:attr>
+                </objectAnimator>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="_R_G_L_0_G_D_0_P_0">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="fillAlpha"
+                    android:startOffset="250"
+                    android:valueFrom="1"
+                    android:valueTo="0.08"
+                    android:valueType="floatType">
+                    <aapt:attr name="android:interpolator">
+                        <pathInterpolator android:pathData="M 0.0,0.0 c0.3,0 0.7,1 1.0,1.0" />
+                    </aapt:attr>
+                </objectAnimator>
+            </set>
+        </aapt:attr>
+    </target>
+
+</animated-vector>

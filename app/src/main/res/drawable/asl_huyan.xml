@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/expanded"
+        android:drawable="@drawable/avd_huyanoff"
+        android:state_checked="true" />
+
+    <item
+        android:id="@+id/collapsed"
+        android:drawable="@drawable/avd_huyanon" />
+
+    <transition
+        android:drawable="@drawable/avd_huyanon"
+        android:fromId="@id/collapsed"
+        android:toId="@id/expanded" />
+
+    <transition
+        android:drawable="@drawable/avd_huyanoff"
+        android:fromId="@id/expanded"
+        android:toId="@id/collapsed" />
+
+</animated-selector>
